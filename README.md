@@ -5,7 +5,7 @@
 Tentando fazer algo
 
 ```mermaid
-grapg LR
+graph LR
 A[Inicio] --> B{Verificação}
 B --> C{Sim} --> D[Sucesso]
 B --> E{Não} --> F[Falha]
