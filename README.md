@@ -6,5 +6,9 @@ Tentando fazer algo
 
 ```mermaid
 grapg LR
-A[Pega_a_laranja] --> B{Pega_a_faca}
-B --> C{Cortar_a_laranja}
+A[Inicio] --> B{Verificação}
+B --> C{Sim} --> D[Sucesso]
+B --> E{Não} --> F[Falha]
+G[Inicio] --> I{Verificação}
+I --> J{Sim} --> K[Sucesso]
+I --> L{Não} --> M[Falha]
