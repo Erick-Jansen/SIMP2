@@ -6,5 +6,5 @@ Tentando fazer algo
 
 ```mermaid
 grapg LR
-A[Pega a laranja]-->B{Pega a faca}
-B{Pega a faca}-->C{Cortar a laranja}
+A[Pega_a_laranja] --> B{Pega_a_faca}
+B{Pega_a_faca} --> C{Cortar_a_laranja}
