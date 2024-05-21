@@ -1,0 +1,26 @@
+#Teste de sexta-feira!
+
+Matematica1 = []
+Contabilidade1 = []
+
+lista = 0
+while lista < 150:
+    matricula = input("Entre com a matrícula do aluno de Matemática 1. Caso não haja mais números então escreva '0': ")
+    if matricula == "0":
+        break
+    Matematica1.append(matricula)
+    lista += 1
+
+lista2 = 0
+while lista2 < 100:
+    matricula = input("Entre com a matrícula do aluno de Contabilidade 1. Caso não haja mais números então escreva '0': ")
+    if matricula == "0":
+        break
+    Contabilidade1.append(matricula)
+    lista2 += 1
+
+resultado = set(Matematica1).intersection(set(Contabilidade1))
+if resultado == set():
+    print("Não existe alunos matrículados em ambos os cursos.")
+else:
+    print(f'A matrícula dos alunos que estão cursando as duas disciplinas são: {resultado}')
