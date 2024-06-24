@@ -12,3 +12,4 @@ B --> E{Não} --> F[Falha]
 F --> I{Verificação}
 I --> J{Sim} --> K[Sucesso]
 I --> L{Não} --> M(Falha)
+```
